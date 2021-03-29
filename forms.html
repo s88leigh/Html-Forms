@@ -38,6 +38,7 @@
           </div>
         </div>
       </div>
+    
       <div class="col-sm-6">
         <div class="card">
           <div class="card-body">
@@ -55,21 +56,7 @@
               <label for="8">8</label>
             </div>
             <button type="submit">Submit</button>
-          </form>
-          </div>
-
-          <div>
-            <h5>Dropdown Selection</h5>
-            <form action="/color">
-            <label for="color">Paint Color:</label>
-            <select name="color" id="color">
-              <option value="">Select</option>
-              <option value="purple">Purple</option>
-              <option value="blue">Blue</option>
-              <option value="green">Green</option>
-            </select>
-          </form>
-          <button>Submit</button>
+            </form>
           </div>
         </div>
       </div>
@@ -92,13 +79,29 @@
               <input type="checkbox" name="color" id="green" value="green" />
               <label for="green">Green</label>
             </div>
+          </div>
         </div>
       </div>
       <div class="col-sm-6">
         <div class="card">
-          <div class="card-body"></div>
+          <div class="card-body">
+            <h4>Dropdown Selection</h4>
+              <form action="/color">
+                <label for="color">Paint Color:</label>
+                <select name="color" id="color">
+                  <option value="">Select</option>
+                  <option value="purple">Purple</option>
+                  <option value="blue">Blue</option>
+                  <option value="green">Green</option>
+                </select>
+              </form>
+              <button>Submit</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    
+
   </body>
 </html>
