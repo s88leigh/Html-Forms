@@ -41,9 +41,9 @@
       <div class="col-sm-6">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Checkbox, Radio, Dropdown Selection</h5>
+            <h4 class="card-title">Radio Buttons</h4>
             <div>
-              <h4><form action="/size">Pants size:</form></h4>
+              <h5><form action="/size"></h5>
 
               <input type="radio" name="size" id="size-2" value="2" />
               <label for="2">2</label>
@@ -54,8 +54,22 @@
               <input type="radio" name="size" id="size-8" value="8" />
               <label for="8">8</label>
             </div>
-
             <button type="submit">Submit</button>
+          </form>
+          </div>
+
+          <div>
+            <h5>Dropdown Selection</h5>
+            <form action="/color">
+            <label for="color">Paint Color:</label>
+            <select name="color" id="color">
+              <option value="">Select</option>
+              <option value="purple">Purple</option>
+              <option value="blue">Blue</option>
+              <option value="green">Green</option>
+            </select>
+          </form>
+          <button>Submit</button>
           </div>
         </div>
       </div>
@@ -78,9 +92,6 @@
               <input type="checkbox" name="color" id="green" value="green" />
               <label for="green">Green</label>
             </div>
-
-            <button>Submit</button>
-          </div>
         </div>
       </div>
       <div class="col-sm-6">
